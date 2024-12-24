@@ -1,36 +1,84 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Simulador de Empréstimos
 
-## Getting Started
+Este projeto é um simulador de empréstimos simples desenvolvido em **React** com **Next.js**. Ele permite que os usuários insiram informações básicas em um formulário para simular um empréstimo e, em seguida, exibe os resultados calculados.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## 🛠️ Pré-requisitos
+
+Certifique-se de ter as seguintes ferramentas instaladas em sua máquina:
+
+- Node.js versão 14 ou superior
+- Yarn ou npm (gerenciador de pacotes)
+
+---
+
+## 🚀 Instalação
+
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/rafaelsos/frontend_simulator_credit.git
+   cd simulator_credit
+
+## Instale as dependências:
+
+Pode ser com `yarn install` ou `npm install`
+
+## Como rodar o projeto:
+
+Pode ser com `yarn dev` ou `npm run dev`
+
+## Abra o navegador e acesse:
+
+http://localhost:3000
+
+## 🧪 Rodando os Testes
+Para executar os testes unitários do projeto, use:
+
+Pode ser com `yarn test` ou `npm run test`
+
+---
+## 📋 Funcionalidades
+
+📝 Tela Inicial (/)
+Pequeno formulário onde o usuário pode adicionar os campos necessários para a simulação de empréstimos.
+
+📊 Tela de Resultados da Simulação (/simulationresult)
+Realiza os cálculos com base nos dados fornecidos pelo usuário e exibe os resultados simulados.
+
+---
+## 🛠️ Tecnologias Utilizadas
+React
+Next.js
+TypeScript
+TailwindCSS
+Jest para testes unitários
+
+---
+## 📂 Estrutura do Projeto
+
+```json
+src/
+├── app/
+│   ├── simulationresult/
+│   │   ├── page.tsx        # Tela de resultados
+│   ├── page.tsx            # Tela inicial (formulário)
+├── application/            # Utils para cálculo e formatação
+│   ├── utils/              # Funções utilitárias
+├── presentation/           # Camada de apresentação
+│   ├── components/         # Componentes reutilizáveis
+│   │   ├── Header/         # Cabeçalho da aplicação
+│   │   ├── InputSelect/    # Componente de seleção
+│   │   ├── InputText/      # Componente de input de texto
+│   ├── screens/            # Screens do projeto
+│   │   ├── SimulationCredit/         # Tela inicial da simulação de crédito
+│   │   ├── SimulationCreditResult/   # Tela de resultados da simulação de crédito
+└── tests/                  # Testes unitários
+
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🧑‍💻 Autor
+Feito com ❤️ por Rafael Sosnowski. Entre em contato e contribua! 😊
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
