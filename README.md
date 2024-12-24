@@ -59,10 +59,15 @@ Realiza os cálculos com base nos dados fornecidos pelo usuário e exibe os resu
 ---
 ## 🛠️ Tecnologias Utilizadas
 React
+
 Next.js
+
 TypeScript
+
 TailwindCSS
+
 Jest para testes unitários
+
 Cypress para testes e2e
 
 ---
