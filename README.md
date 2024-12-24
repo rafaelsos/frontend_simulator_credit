@@ -83,7 +83,7 @@ src/
 │   ├── screens/            # Screens do projeto
 │   │   ├── SimulationCredit/         # Tela inicial da simulação de crédito
 │   │   ├── SimulationCreditResult/   # Tela de resultados da simulação de crédito
-└── tests/                  # Testes unitários
+└── tests/                  # Testes unitários e testes e2e
 
 ```
 
