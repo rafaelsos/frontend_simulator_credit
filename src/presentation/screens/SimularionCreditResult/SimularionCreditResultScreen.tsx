@@ -7,7 +7,7 @@ export const SimulationCreditResultScreen = () => {
     useSimulationCreditResultScreenRules()
 
   return (
-    <section className="relative flex min-h-screen flex-col justify-center overflow-hidden bg-gray-50 py-6 sm:py-12">
+    <section className="relative flex min-h-screen flex-col justify-center overflow-hidden py-6 sm:py-12 bg-creditas">
       <div className="mx-auto max-w-md">
         <h2 className="text-center space-y-6 py-8 text-lg leading-7 text-gray-600">
           Resultado da simulação de crédito.

@@ -12,6 +12,7 @@ export default {
       colors: {
         background: 'var(--background)',
         foreground: 'var(--foreground)',
+        creditas: '#f1f3f2',
       },
     },
   },

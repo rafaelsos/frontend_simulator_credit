@@ -22,7 +22,7 @@ export const SimulationCreditScreen = () => {
   } = useSimulationCreditScreenRules()
 
   return (
-    <section className="w-full h-screen bg-[#f1f3f2]">
+    <section className="w-full h-screen bg-creditas">
       <div className="grid grid-cols-1 md:grid-cols-2 container mx-auto px-8 max-md:pt-32">
         <div className="flex flex-col px-4  md:w-full md:h-screen md:justify-center max-md:px-12">
           <h2 className="max-w-xl text-balance text-3xl font-semibold text-gray-800">
