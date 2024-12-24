@@ -9,9 +9,9 @@ export const SimulationCreditResultScreen = () => {
   return (
     <section className="relative flex min-h-screen flex-col justify-center overflow-hidden bg-gray-50 py-6 sm:py-12">
       <div className="mx-auto max-w-md">
-        <p className="text-center space-y-6 py-8 text-lg leading-7 text-gray-600">
+        <h2 className="text-center space-y-6 py-8 text-lg leading-7 text-gray-600">
           Resultado da simulação de crédito.
-        </p>
+        </h2>
 
         <div className=" bg-white rounded-md shadow-lg px-24 py-12 max-w-md ">
           <div className="flex flex-col text-center flex-1 justify-items-center gap-4">

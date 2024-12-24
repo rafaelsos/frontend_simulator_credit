@@ -37,6 +37,16 @@ Para executar os testes unitários do projeto, use:
 
 Pode ser com `yarn test` ou `npm run test`
 
+## 🧪 Rodando os Testes E2E
+Para executar os testes E2E do projeto, use:
+
+`yarn cypress:open`
+
+No Cypress, selecione o navegador desejado e clique em "Start E2E Testing".
+
+Temos apenas esse test no momento `simulation_credit.cy`
+
+
 ---
 ## 📋 Funcionalidades
 
