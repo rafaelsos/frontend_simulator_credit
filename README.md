@@ -63,6 +63,7 @@ Next.js
 TypeScript
 TailwindCSS
 Jest para testes unitários
+Cypress para testes e2e
 
 ---
 ## 📂 Estrutura do Projeto
@@ -83,7 +84,7 @@ src/
 │   ├── screens/            # Screens do projeto
 │   │   ├── SimulationCredit/         # Tela inicial da simulação de crédito
 │   │   ├── SimulationCreditResult/   # Tela de resultados da simulação de crédito
-└── tests/                  # Testes unitários e testes e2e
+tests/                      # Testes unitários e testes e2e
 
 ```
 
